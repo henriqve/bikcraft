@@ -33,6 +33,20 @@
   grid-column: 1/-1;
 }
 
+.lojas h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lojas h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: var(--cor-p1);
+}
+
 .lojas-dados {
   display: grid;
   gap: 8px;
